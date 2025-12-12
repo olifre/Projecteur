@@ -18,29 +18,13 @@ jobs:
       matrix:
         docker_tag:
         - archlinux
-        - fedora-31
-        - fedora-32
-        - fedora-33
-        - fedora-34
-        - fedora-37
-        - fedora-38
-        - debian-stretch
-        - debian-buster
-        - debian-bullseye
+        - fedora-41
+        - fedora-42
         - debian-bookworm
-        - ubuntu-18.04
-        - ubuntu-20.04
-        - ubuntu-20.10
-        - ubuntu-21.04
-        - ubuntu-22.04
-        - ubuntu-23.04
-        - opensuse-15.0
-        - opensuse-15.1
-        - opensuse-15.2
-        - opensuse-15.3
-        - opensuse-15.4
-        - opensuse-15.5
-        - centos-8
+        - debian-trixie
+        - ubuntu-24.04
+        - ubuntu-25.04
+        - rockylinux-10
         os:
         - ubuntu-latest
 
